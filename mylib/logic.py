@@ -7,3 +7,10 @@ def wiki(name="War Goddess", length=1):
     """
     my_wiky = wikipedia.summary(name, length)
     return my_wiky
+
+
+def search(name):
+    """
+    This is a search helper
+    """
+    return wikipedia.search(name)
