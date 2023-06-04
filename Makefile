@@ -2,9 +2,9 @@ install:
 	pip install --upgrade pip && \
 		pip install -r requirements.txt
 lint:
-	# check code: pylint
+	pylint --disable=R,C *.py mylib/*.py
 format:
-	# format code
+	black *.py mylib/*.py
 test:
 	# test
 deploy:
