@@ -6,7 +6,7 @@ lint:
 format:
 	black *.py mylib/*.py
 test:
-	# test
+	python -m pytest -vv test_*.py
 deploy:
 	# deploy commands
 all: install lint test deploy
