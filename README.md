@@ -14,3 +14,10 @@
 3. Populate Makefile
 4. Setup Continuous Integration, i.e. check code for issues like lint errors
 
+### Add Python Fire CLI
+
+```
+$ ./cli.py --help
+$ ./cli.py search "River Plate"
+$ ./cli.py wiki "Club Atlético River Plate"
+```
