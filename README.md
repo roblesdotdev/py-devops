@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/roblesdotdev/py-devops/actions/workflows/devops.yml/badge.svg)](https://github.com/roblesdotdev/py-devops/actions/workflows/devops.yml)
+
 ## Python for DevOps Lecture/Workshop
 
 ### Scaffold
